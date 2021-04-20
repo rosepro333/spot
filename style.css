@@ -1,0 +1,843 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* -------------------header------------------------------------ */
+
+.header{
+    min-height: 100vh;
+    width:100%;
+    height: 100%;
+    background-image: url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* -------------------------------navbar---------------------------------- */
+
+.navb{
+    display:flex;
+    padding: 10px 15% 0px;
+ 
+     
+}
+nav img{
+    width:50px;
+  
+}
+nav .three #ai{
+    color:#fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size:30px;
+    position: absolute;
+    
+}
+.three{
+    flex-basis: 5%;
+  
+}
+
+
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 21px 12px;
+    position:relative;
+    
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Quicksand', sans-serif;
+}
+.nav-links ul .two{
+    display: none;
+}
+
+
+/* -----------------------------------second-navbar--------------------------------- */
+
+#one .navb{
+    padding: 0px 15% 8px; 
+}
+
+#one li {
+    text-align: center;
+    border-right: 1px solid rgb(179, 170, 170);
+    height: 15px;  
+}
+ .navb #four{
+    padding-left: 230px;
+    position: absolute;
+   
+} 
+
+
+nav .fa{
+    display: none;
+}
+
+
+/* -------------------------------header text ------------------------------------ */
+
+.texthead{
+    display:flex;
+    padding: 5px 15% 0px;
+    justify-content: space-between;
+    
+}
+.texthead-col{
+    flex-basis: 49%;  
+}
+
+.texthead-col h2{
+   
+    color: #fff;
+    text-align: right;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+  
+   
+}
+.texthead-col h1{
+   
+    color: rgb(236, 25, 25);
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 75px;  
+}
+
+
+
+/* --------------------------------responsive---------------------------------- */
+
+@media(max-width:700px){
+   
+    
+.navb{
+            display:flex; 
+           padding-top: 20px;
+              
+    }  
+
+    nav img{
+        width:50px;
+      
+    } 
+    nav .three #ai {
+        font-size:26px; 
+        
+       
+    }
+   .texthead{
+       margin-top: 20px;
+   }
+
+
+    .texthead-col h2{
+        font-size: 11px;
+    }
+    .texthead-col h1{
+        font-size: 28px; 
+    }
+
+  .nav-links ul li{
+        display: block;
+    }
+    
+    .nav-links{
+        position: fixed;
+        background:#c21a0e;
+        height: 100vh;
+        width:200px;
+        top:0;
+        right:-200px;
+        text-align: left;
+        z-index:2;
+        transition: 1s;
+        
+    }
+    nav .fa{
+        display:block;
+        color:#fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+  
+    .nav-links ul{
+        padding: 10px;
+    }
+
+    .nav-links ul .two{
+       
+        padding: 15px;
+        display: block;
+
+    }
+    
+}
+
+/* -----------------------------section -------textbox 1 ------------------ */
+.textbox{
+    min-height: 100vh;
+    width:100%;
+    height: 4770px;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.first{
+    width:800px;
+    height: 400px;
+    margin:auto;
+    text-align: center; 
+    line-height: 29px;
+}
+  
+.first p{
+   
+    color: #fff;
+    margin: auto;
+    padding-top: 27px; 
+    text-align:justify;
+    font-size:16px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 5px;
+ 
+}
+
+.first #spot1{
+    color:#fff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.first #spot2{
+    color: rgb(214, 10, 10);
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;   
+}
+
+
+/* ---------------------responsive text box1-------------- */
+@media(max-width:700px){
+
+.textbox{
+     min-height: 100vh;
+     max-width: 700px; 
+     height:5475px;
+     position: absolute;
+    
+} 
+     
+.first{
+    width:100%;
+    height: 555px; 
+    line-height: 20px;
+    } 
+  
+.first p{
+
+    font-size: 13px; 
+    padding:30px 5.5% 2%;
+  
+}
+ .first #spot1{
+
+        font-size: 16px;
+    }
+ .first #spot2{
+
+        font-size: 17px;
+    }
+
+}
+
+/* --------------section -------textbox 2 ------------------------------- */
+
+.second{
+    width:900px;
+    height: 2720px;
+    margin:auto;
+    text-align: center; 
+    line-height: 29px;
+    background-color: #fff;
+}
+.second h2{
+    background-color: rgb(206, 17, 17);
+    color: #fff;
+    height: 40px;
+    padding-top: 14px;
+}
+.second img{
+    width: 800px;
+    height: 325px;
+    margin: auto;
+    margin-top: 10px;
+}
+.second p{
+    color: black;
+    padding:10px 6% 2px;
+    text-align:justify;
+    font-size:16px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 5px;
+    
+}
+.second #spot3{
+ 
+    color: rgb(214, 10, 10);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+div .bt1 {
+color: red;
+width:40%;
+height: 40px;
+font-size: 15px;
+font-weight: 600;
+background: linear-gradient(rgb(252, 247, 247),rgb(145, 140, 140))
+
+}
+
+.second .spot4{
+ 
+    color: rgb(214, 10, 10);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+}
+/* ------------------------------------------------------------------------- */
+.row{
+
+    display:flex;
+    justify-content: space-between;
+    padding:10px 3%;
+    /* line-height: 29px; */
+}
+.vehicle-left{ 
+    flex-basis:40%;
+} 
+.vehicle-right{
+    width: 80%; 
+    
+}
+
+.vehicle-left img{
+    width: 250px;
+    height: 400px;
+   
+}
+.vehicle-right #spot5{
+    color: rgb(0, 0, 0);
+    text-align:justify; 
+    font-size:16px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 5px;
+    
+  
+   
+}
+.vehicle-right #spot6{
+ 
+    color: rgb(214, 10, 10);
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+   
+}
+.second #bt2{
+
+    color: red;
+    width:60%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    background: linear-gradient(rgb(252, 247, 247),rgb(145, 140, 140));
+    margin-right: 29%;
+    
+
+}
+/* ------------------------------text box2 responsive---------------------------------- */
+
+ @media(max-width:700px){
+        
+    .second{
+
+            width:100%;
+            height: 3340px;
+            line-height: 20px;
+           }
+
+    .second h2{
+            font-size: 14px;
+            height: 22px;
+            padding-top: 2px;
+            
+        }
+      .second img{
+            width: 300px;
+            height: 325px;
+            margin: auto;
+            margin-top: 10px;
+        }
+        .second p{
+            
+            padding:10px 6% 2px;
+            padding-top: 27px;  
+            text-align:justify;
+            font-weight: 5px;
+            font-size: 13px; 
+          
+        }
+        .second #spot3{
+         
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold; 
+        } 
+
+        div .bt1 {
+
+            width:30%;
+            height: 30px;
+            font-size: 12px;
+            font-weight: 700;
+            
+            }
+            
+            
+     .second .spot4{
+                text-align: center;
+                font-size: 13px;
+                font-weight: bold; 
+            }
+ 
+/* =============================================================== */
+        .row{
+                flex-direction:column;
+                width:90%;
+                /* height:700px; */
+                position: absolute;
+                line-height: 20px;   
+
+            }
+    
+            .vehicle-right{
+                width:100%; 
+                
+            }
+            
+            .vehicle-left img{
+
+                     margin: auto;
+               }
+
+            .vehicle-right #spot5{
+              
+                font-size:13px;
+                font-weight: 5px;
+                 padding:27px 2% 0px;
+                  
+            }
+            .vehicle-right #spot6{
+             
+                text-align: left;
+                font-size: 13px;
+                font-weight: bold; 
+               
+            }
+            .second #bt2{
+                width:40%;
+                height: 30px;
+                font-size: 12px;
+                font-weight: 700;
+                margin:auto;
+                
+            }
+
+   
+}  
+
+/* --------------section -------------------textbox 3 -------------------- */
+.third{
+    width:900px;
+    height: 600px;
+    margin:auto;
+    text-align: center; 
+    line-height: 29px;
+   
+  
+    
+}
+.third img{
+    width: 570px;
+    height: 170px;
+    margin: auto;
+    padding-top: 20px;
+}
+.third  h2{
+ color: #fff;
+ font-family: 'Fira Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif;
+ word-spacing: 6px;
+ font-size: 32px;
+}
+
+.shelf{
+    display:flex;
+    justify-content: space-between;
+    padding:0 5% ;
+    height: 350px;    
+}
+
+.shelf-col{ 
+    flex-basis:43%;
+    height:300px;
+    margin-top: 20px;
+    padding:10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-image: linear-gradient(to bottom, #fff,black) 1; 
+} 
+
+.shelf-col img{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    padding-top: 10px;
+}
+.shelf-col p{
+
+    color: #fff;
+    margin: auto;
+    padding-top: 20px; 
+    text-align:center;
+    font-size:16px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 5px;
+    
+}
+hr{
+    margin:0 5%; 
+    width:90%;
+}
+
+
+.custom-col{ 
+    flex-basis:43%;
+    height:300px;
+    margin-top: 20px;
+    padding:10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-image: linear-gradient(to bottom, #fff,black) 1; 
+} 
+
+.custom-col img{
+    width: 350px;
+    height: 150px;
+    margin: auto;
+    padding-top: 1px;
+}
+.custom-col h1{
+    color: rgb(206, 17, 17);
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+}
+.custom-col p{
+
+    color: #fff;
+    margin: auto;
+    padding-top: 20px; 
+    text-align:center;
+    font-size:16px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 5px;
+    
+}
+
+.third #five{
+    color:#fff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    word-spacing: 5px;
+    margin-top: 20px;
+    
+}
+.third span{
+    color: rgb(214, 10, 10);
+    font-family: 'Cantora One', sans-serif;
+    font-size: 30px;
+    font-weight: bold;   
+}
+.third button{
+
+    color: #fff;
+    width:40%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgb(194, 8, 8);
+    margin:3% 20%;
+    
+
+}
+.last{
+    
+        height: 450px;
+         width:100%;
+         margin-top: 600px; 
+         background-image: url(images/last.png);   
+         background-position: center;
+         background-size: cover;
+         position: relative;
+         background-repeat: no-repeat;
+}
+#satelite{
+
+   margin-left: 100px;
+   width:558px;
+   height: 300px;
+     
+} 
+
+/* ------------RESPONSIVE-----------------textbox 3 -------------------- */
+
+ @media(max-width:700px){
+        .third{
+          
+            width: 100%;
+            height: 1330px;
+            line-height: 20px;
+            margin:auto;
+            text-align: center;  
+            
+        }
+        .third img{
+          
+            height: 100px;
+            width: 270px;
+            padding-top: 2px;      
+        }
+        .third  h2{
+          word-spacing: 3px;
+          font-size: 15px;
+         }
+     
+     .shelf{
+             margin: 0% 2%;
+             flex-direction:column;
+             height:500px;
+             line-height: 20px;      
+        }
+
+        .shelf-col{ 
+          
+            width:260px;
+            margin: 4% 0%;        
+        } 
+
+        .shelf-col img{
+
+            height: 60px;
+            width:100%;
+        }
+        .shelf-col p{
+
+            padding-top: 20px; 
+            font-size:13px;
+            font-weight: 5px;
+          } 
+
+         hr{
+            margin:3% 7% ; 
+            width:280px;
+         }
+
+        .custom-col{ 
+            width:260px;
+            margin: 4% 0%;  
+        } 
+
+        .custom-col img{
+
+            height: 100px;
+        }
+
+        .custom-col h1{
+            font-size: 17px;
+            padding-top:10px;
+         
+        }
+        .custom-col p{
+            padding-top: 10px; 
+            font-size:13px;
+            font-weight: 5px;    
+        }
+  
+        .third #five{
+          
+            font-size: 13px;
+            margin-top: 20px;     
+        }
+        .third span{
+           
+            font-size: 16px;     
+        }
+        .third button{
+            width:40%;
+            height: 30px;
+            font-size: 12px;
+            font-weight: 700;
+            margin:20px 10%;
+        } 
+     .last{
+            
+                height: 200px;
+                width:100%;
+                margin-top: 50px; 
+            
+        }
+        #satelite{
+
+        margin-left: 50px;
+        width:140px;
+        height: 120px;
+            
+        }  
+
+
+} 
+
+
+/* --------------------------------------footer-------------------------------------- */
+
+.footer{
+    position: relative;
+}
+
+.foot{
+    display:flex;
+    justify-content: space-between;
+    padding:0 5% ;
+    margin:20px 90px ;
+
+    
+}
+ .foot-col{ 
+  
+    font-size:14px;
+    padding:20px 10px;
+    line-height: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Spartan', sans-serif; 
+   
+}  
+
+ .foot #ai2{
+    width:150px; 
+} 
+
+.ai3{
+    padding-left: 30px;
+
+}  
+
+.foot-col .fa{
+   
+    cursor:pointer;
+    margin:0 4px;
+    padding:18px 0;
+
+} 
+
+/* -------------------------responsive-------------footer-------------------------------------- */
+
+@media(max-width:700px){
+
+        .footer{
+            
+            width:100%;
+            position: absolute;
+            height: 480px;
+            margin-top: 5480px;
+            
+        }
+        .foot{
+            flex-direction: column;
+            padding:0 2% ;
+            margin:auto;
+        }
+
+        .foot-col{ 
+        
+            font-size:13px;
+            line-height: 20px;
+        
+        }  
+    
+        .foot-col  #ai2{
+                width:150px; 
+                margin-left: 12px;
+            
+            }  
+
+        .foot-col .ai4{
+                
+                margin-left: 40px;
+            }
+        .foot-col .ai3{
+
+            margin-left: 10px;
+            }    
+
+        .foot-col .fa{
+
+            cursor:pointer;
+            padding:15px 0;
+        }  
+
+        .foot #icons{
+            
+            margin-left: 40px;
+        }
+
+}
+
+
